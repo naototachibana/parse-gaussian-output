@@ -1,0 +1,18 @@
+[project]
+name = "parse-gaussian-output"
+version = "0.1.0"
+description = "Add your description here"
+dependencies = [
+    "cclib>=1.8.1",
+    "pandas>=2.3.3",
+    "numpy>=2.2.6",
+    "tqdm>=4.67.1",
+    "requests>=2.32.5",
+]
+readme = "README.md"
+requires-python = ">= 3.10"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
